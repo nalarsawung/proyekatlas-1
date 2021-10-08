@@ -5,7 +5,7 @@ def get_id(folder='dataset'):
 	alldata = [i for i in os.listdir(folder)]
 	print(alldata)
 	alldata.sort()
-	ids = 0
+	ids = 1
 	if alldata:
 		for i in alldata:
 			tempid = i.split('.')[1]
